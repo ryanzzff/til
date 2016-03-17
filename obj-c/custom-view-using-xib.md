@@ -97,9 +97,10 @@ Let `C` be the custom view class
 - `B` is a subview of `A`
 
 
-ref:
+## References
 
 - http://stackoverflow.com/questions/9251202/how-do-i-create-a-custom-ios-view-class-and-instantiate-multiple-copies-of-it-i
 - http://www.maytro.com/2014/04/27/building-reusable-views-with-interface-builder-and-auto-layout.html
 - http://stackoverflow.com/a/26202160/3869284
 - http://stackoverflow.com/a/35397975/3869284
+- https://youtu.be/L97MdpaF3Xg
