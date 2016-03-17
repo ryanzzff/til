@@ -13,6 +13,7 @@ Today I Learned
 ### Objective-C
 
 - [Keep subview in Scroll View always on screen](obj-c/keep-subview-in-scrollView-always-on-screen.md)
+- [Custom View using xib](obj-c/custom-view-using-xib.md)
 
 ---
 
