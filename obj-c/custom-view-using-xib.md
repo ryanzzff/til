@@ -34,6 +34,8 @@ To fix this we need to make the Custom View `IBDesignable`
 
 #### 1. add `IB_DESIGNABLE` marco in `xxx.h`
 
+Noted that `IB_DESIGNABLE` marco *MUST* be placed strictly before `@interface` 
+
 ```
 #import <UIKit/UIKit.h>
 
