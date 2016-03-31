@@ -18,6 +18,12 @@ Today I Learned
 
 ---
 
+### Svn
+
+- [Checkout directories only](svn/checkout-dir-only.md)
+
+---
+
 ### Unix
 
 - [Create and Grant Sudo Privileges to User](unix/create-and-grant-sudo-privileges-to-user.md)
