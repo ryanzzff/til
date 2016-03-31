@@ -40,7 +40,7 @@ This would update all subdirectories under `dir2`, i.e. `dir2/subdir1` and `dir2
 svn up --set-depth infinity dir3
 ```
 
-This would update all subdirectories and files recursively
+This would update all subdirectories and files under `dir3` recursively
 
 ## Reference
 
