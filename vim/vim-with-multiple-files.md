@@ -120,3 +120,4 @@ $ vi -O a.txt b.txt c.txt
 ## Reference
 
 - [How to effectively work with multiple files in Vim? | StackOverflow](http://stackoverflow.com/questions/53664/how-to-effectively-work-with-multiple-files-in-vim)
+- [Vim Tab Madness. Buffers vs Tabs](http://joshldavis.com/2014/04/05/vim-tab-madness-buffers-vs-tabs/)
