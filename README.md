@@ -16,6 +16,7 @@ Today I Learned
 ### Git
 
 - [Fork a repo](git/fork-a-repo.md)
+- [Git keeps asking password after El Capitan upgrade](git/git-keeps-asking-pw-after-el-capitan-upgrade.md)
 
 ---
 
