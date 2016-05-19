@@ -11,22 +11,22 @@
 
 ## Using dex2jar
 
-1. Download `dex2jar` from https://bitbucket.org/pxb1988/dex2jar/downloads
-2. Unzip `dex2jar-2.0.zip` to `~/bin/dex2jar-2.0/` or other directory
-3. Make the script executable
+### 1. Download [`dex2jar`](https://bitbucket.org/pxb1988/dex2jar/downloads)
+### 2. Unzip `dex2jar-2.0.zip` to `~/bin/dex2jar-2.0/` or other directory
+### 3. Make the script executable
 
 ```
 $ cd ~/bin/dex2jar-2.0/
 $ chmod +x *.sh
 ```
 
-4. Convert the apk into jar file using the convert script
+### 4. Convert the apk into jar file using the convert script
 
 ```
 $ sh ~/bin/dex2jar-2.0/d2j-dex2jar.sh com.hktve.viutv-20160409.apk
 ```
 
-5. A jar file is then created
+A jar file `com.hktve.viutv-20160409-dex2jar.jar` is then created
 
 ## Open the jar file using JD-GUI
 
