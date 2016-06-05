@@ -39,6 +39,7 @@ Today I Learned
 - [Keep subview in Scroll View always on screen](obj-c/keep-subview-in-scrollView-always-on-screen.md)
 - [Custom View using xib](obj-c/custom-view-using-xib.md)
 - [Scroll up textfield when keyboard shows](obj-c/scroll-up-textfield-when-keyboard-shows.md)
+- [Auto Layout - Hugging Vs Resistance](obj-c/autolayout-hugging-vs-resistance.md)
 
 ---
 
