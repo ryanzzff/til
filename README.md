@@ -9,6 +9,7 @@ Today I Learned
 - [Git](#git)
 - [Hacking](#hacking)
 - [Objective-C](#objective-c)
+- [Regex](#regex)
 - [Svn](#svn)
 - [Unix](#unix)
 - [Vim](#vim)
@@ -40,6 +41,12 @@ Today I Learned
 - [Custom View using xib](obj-c/custom-view-using-xib.md)
 - [Scroll up textfield when keyboard shows](obj-c/scroll-up-textfield-when-keyboard-shows.md)
 - [Auto Layout - Hugging Vs Resistance](obj-c/autolayout-hugging-vs-resistance.md)
+
+---
+
+### Regex
+
+- [Chinese Characters in Regex](regex/regex-chinese-char.md)
 
 ---
 
