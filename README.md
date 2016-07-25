@@ -5,6 +5,7 @@ Today I Learned
 
 ### Categories
 
+- [Bookmarks](#bookmarks)
 - [CocoaPods](#cocoapods)
 - [Git](#git)
 - [Hacking](#hacking)
@@ -13,6 +14,10 @@ Today I Learned
 - [Svn](#svn)
 - [Unix](#unix)
 - [Vim](#vim)
+
+---
+
+### [Bookmarks](bookmarks/index.md)
 
 ---
 
