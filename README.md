@@ -9,6 +9,7 @@ Today I Learned
 - [CocoaPods](#cocoapods)
 - [Git](#git)
 - [Hacking](#hacking)
+- [Homebrew](#homebrew)
 - [Objective-C](#objective-c)
 - [Regex](#regex)
 - [Svn](#svn)
@@ -34,9 +35,15 @@ Today I Learned
 
 ---
 
-## hacking
+### hacking
 
 - [Decompile Android apk](hacking/decompile-android-apk.md)
+
+---
+
+### Homebrew
+
+- [Bash Completion](homebrew/bash-completion.md)
 
 ---
 
