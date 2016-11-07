@@ -25,7 +25,7 @@ Today I Learned
 ### CocoaPods
 
 - [CocoaPods save project.pbxproj file in XML plist format on Xcode 7.3.1](cocoapods/cocoapods-save-project.pbxproj-file-in-xml-plist-format-on-xcode-7.3.1.md)
-
+- [CocoaPods Private Spec Repo](cocoapods/private-spec-repo.md)
 ---
 
 ### Git
