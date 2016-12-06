@@ -10,6 +10,7 @@ Today I Learned
 - [Git](#git)
 - [Hacking](#hacking)
 - [Homebrew](#homebrew)
+- [iOS](#iOS)
 - [Objective-C](#objective-c)
 - [Regex](#regex)
 - [Svn](#svn)
@@ -36,7 +37,7 @@ Today I Learned
 
 ---
 
-### hacking
+### Hacking
 
 - [Decompile Android apk](hacking/decompile-android-apk.md)
 
