@@ -10,7 +10,7 @@ Today I Learned
 - [Git](#git)
 - [Hacking](#hacking)
 - [Homebrew](#homebrew)
-- [iOS](#iOS)
+- [iOS](#ios)
 - [Objective-C](#objective-c)
 - [Regex](#regex)
 - [Svn](#svn)
