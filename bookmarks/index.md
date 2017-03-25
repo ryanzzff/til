@@ -16,6 +16,11 @@
 - [Trending CocoaPods](https://trendingcocoapods.github.io/)
 - [Zen and the Art of the Objective-C Craftsmanship](https://github.com/objc-zen/objc-zen-book)
 - [【如何快速的开发一个完整的iOS直播app】(原理篇)](http://www.jianshu.com/p/bd42bacbe4cc)
+- [KKBOX iOS/Mac OS X 基礎開發教材](https://www.gitbook.com/book/zonble/kkbox-ios-dev/details)
+
+## Swift
+
+- [Hacking with Swift](https://www.hackingwithswift.com/)
 
 ## Vim
 
