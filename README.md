@@ -52,6 +52,7 @@ Today I Learned
 ### iOS
 
 - [App Transport Security (ATS)](ios/ats.md)
+- [Redirect to Settings Page](ios/settings-page-redirection.md)
 
 ---
 
