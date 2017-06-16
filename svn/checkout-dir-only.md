@@ -42,6 +42,20 @@ svn up --set-depth infinity dir3
 
 This would update all subdirectories and files under `dir3` recursively
 
+## List folder with depth
+
+### List immediates folder
+
+```
+svn ls --depth immediates .
+```
+
+### List folder recursively
+
+```
+svn ls --depth infinity .
+```
+
 ## Reference
 
 - http://svnbook.red-bean.com/en/1.7/svn.advanced.sparsedirs.html
