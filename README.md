@@ -54,6 +54,7 @@ Today I Learned
 - [App Transport Security (ATS)](ios/ats.md)
 - [Redirect to Settings Page](ios/settings-page-redirection.md)
 - [Retrieve expiry date of Provisioning Profile Certificate from .ipa](ios/ipa-cert-expiry-date.md)
+- [Failed to open Xcode (LSOpenURLsWithRole() failed with error -10699)](ios/xcode-lsopenurlswithrole.md)
 
 ---
 
