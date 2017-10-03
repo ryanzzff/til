@@ -10,6 +10,15 @@
 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"App-Prefs:root=WIFI"]];
 ```
 
+### iOS 9.2 need to add URL schemes `prefs`
+
+```
+Go to Project settings --> Info --> URL Types --> Add New URL Schemes
+```
+
+- https://stackoverflow.com/a/35987082
+
+
 ---
 
 Redirect to Settings Page by `[UIApplication:openURL:]`:
