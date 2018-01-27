@@ -11,10 +11,10 @@ Today I Learned
 - [Hacking](#hacking)
 - [Homebrew](#homebrew)
 - [iOS](#ios)
+- [Networking](#networking)
 - [Objective-C](#objective-c)
 - [Regex](#regex)
 - [Svn](#svn)
-- [TLS/SSL](#tlsssl)
 - [Unix](#unix)
 - [Vim](#vim)
 
@@ -60,6 +60,13 @@ Today I Learned
 
 ---
 
+### Networking
+
+- [SSL Server Test](https://www.ssllabs.com/ssltest/)
+- [Shadowsocks vs. VPN](networking/shadowsocks-vs-vpn.md)
+
+--- 
+
 ### Objective-C
 
 - [Keep subview in Scroll View always on screen](obj-c/keep-subview-in-scrollView-always-on-screen.md)
@@ -80,12 +87,6 @@ Today I Learned
 - [Checkout directories only](svn/checkout-dir-only.md)
 
 ---
-
-### TLS/SSL
-
-- [SSL Server Test](https://www.ssllabs.com/ssltest/)
-
---- 
 
 ### Unix
 
