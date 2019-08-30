@@ -61,6 +61,12 @@ Today I Learned
 
 ---
 
+### Mac
+
+- [Catalina failed to sync iPhone with Finder](mac/catalina-failed-to-sync-iphone-with-finder.md)
+
+---
+
 ### Networking
 
 - [SSL Server Test](https://www.ssllabs.com/ssltest/)
