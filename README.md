@@ -14,7 +14,9 @@ Today I Learned
 - [Networking](#networking)
 - [Objective-C](#objective-c)
 - [Regex](#regex)
+- [SQL](#sql)
 - [Svn](#svn)
+- [Swift](#swift)
 - [Unix](#unix)
 - [Vim](#vim)
 
@@ -35,6 +37,7 @@ Today I Learned
 
 - [Fork a repo](git/fork-a-repo.md)
 - [Git keeps asking password after El Capitan upgrade](git/git-keeps-asking-pw-after-el-capitan-upgrade.md)
+- [Change case sensitivity of filename](git/change-case-sensitivity-of-filename.md)
 
 ---
 
@@ -89,9 +92,22 @@ Today I Learned
 
 ---
 
+### SQL
+
+- [Select random row in SQL](sql/select-random-row-in-sql.md)
+
+---
+
 ### Svn
 
 - [Checkout directories only](svn/checkout-dir-only.md)
+
+
+---
+
+### Swift
+
+- [Implement Equatable protocol with Inheritance](swift/equatable.md)
 
 ---
 
