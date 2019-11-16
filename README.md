@@ -15,6 +15,7 @@ Today I Learned
 - [Objective-C](#objective-c)
 - [Regex](#regex)
 - [SQL](#sql)
+- [SSH](#ssh)
 - [Svn](#svn)
 - [Swift](#swift)
 - [Unix](#unix)
@@ -38,6 +39,7 @@ Today I Learned
 - [Fork a repo](git/fork-a-repo.md)
 - [Git keeps asking password after El Capitan upgrade](git/git-keeps-asking-pw-after-el-capitan-upgrade.md)
 - [Change case sensitivity of filename](git/change-case-sensitivity-of-filename.md)
+- [Interactive Rebase](git/interactive-rebase.md)
 
 ---
 
@@ -95,6 +97,12 @@ Today I Learned
 ### SQL
 
 - [Select random row in SQL](sql/select-random-row-in-sql.md)
+
+---
+
+### SSH
+
+- [Verify SSH passphrase/Show associated public key of the private key](ssh/verify-ssh-passphrase.md)
 
 ---
 
