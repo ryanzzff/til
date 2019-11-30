@@ -29,7 +29,7 @@
 * [Retrieve expiry date of Provisioning Profile Certificate from .ipa](ios/ipa-cert-expiry-date.md)
 * [Failed to open Xcode \(LSOpenURLsWithRole\(\) failed with error -10699\)](ios/xcode-lsopenurlswithrole.md)
 * [WKWebView set custom HTTP headers](ios/wkwebview-custom-http-headers.md)
-* [IAP applicationUsername is nil](obj-c/iap-applicationusername-nil.md)
+* [IAP applicationUsername is nil](ios/iap-applicationusername-nil.md)
 
 ### Jenkins
 
@@ -46,10 +46,10 @@
 
 ### Objective-C
 
-* [Keep subview in Scroll View always on screen](obj-c/keep-subview-in-scrollview-always-on-screen.md)
-* [Custom View using xib](obj-c/custom-view-using-xib.md)
-* [Scroll up textfield when keyboard shows](obj-c/scroll-up-textfield-when-keyboard-shows.md)
-* [Auto Layout - Hugging Vs Resistance](obj-c/autolayout-hugging-vs-resistance.md)
+* [Keep subview in Scroll View always on screen](objective-c/keep-subview-in-scrollview-always-on-screen.md)
+* [Custom View using xib](objective-c/custom-view-using-xib.md)
+* [Scroll up textfield when keyboard shows](objective-c/scroll-up-textfield-when-keyboard-shows.md)
+* [Auto Layout - Hugging Vs Resistance](objective-c/autolayout-hugging-vs-resistance.md)
 
 ### Regex
 
