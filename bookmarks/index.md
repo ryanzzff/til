@@ -1,5 +1,13 @@
 # Bookmarks
 
+## Resources
+
+* [free-for.dev \| Free services for Infrastructure Developers](https://free-for.dev/)
+
+## Awesome
+
+* [getAwesomeness\(\)](https://getawesomeness.herokuapp.com)
+
 ## Developer Blogs
 
 ### iOS
@@ -24,9 +32,17 @@
 * [【如何快速的开发一个完整的iOS直播app】\(原理篇\)](http://www.jianshu.com/p/bd42bacbe4cc)
 * [KKBOX iOS/Mac OS X 基礎開發教材](https://www.gitbook.com/book/zonble/kkbox-ios-dev/details)
 
+## Online Courses
+
+* [coursera](https://www.coursera.org/)
+* [edX](https://www.edx.org/)
+* [RayWenderlich](https://www.raywenderlich.com/)
+* [Udemy](https://www.udemy.com/)
+
 ## Swift
 
 * [Hacking with Swift](https://www.hackingwithswift.com/)
+* [Swiftly \| Swift 5.1 References](https://swiftly.dev)
 
 ## UML
 
