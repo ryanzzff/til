@@ -1,25 +1,4 @@
-# til
-
-Today I Learned
-
-### Categories
-
-* [Bookmarks](./#bookmarks)
-* [CocoaPods](./#cocoapods)
-* [Git](./#git)
-* [Hacking](./#hacking)
-* [Homebrew](./#homebrew)
-* [iOS](./#ios)
-* [Jenkins](./#jenkins)
-* [Networking](./#networking)
-* [Objective-C](./#objective-c)
-* [Regex](./#regex)
-* [SQL](./#sql)
-* [SSH](./#ssh)
-* [Svn](./#svn)
-* [Swift](./#swift)
-* [Unix](./#unix)
-* [Vim](./#vim)
+# Today I Learned
 
 ### [Bookmarks](bookmarks/index.md)
 
