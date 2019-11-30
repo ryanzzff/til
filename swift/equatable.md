@@ -1,4 +1,6 @@
-# Implement Equatable protocol with Inheritance
+# equatable
+
+## Implement Equatable protocol with Inheritance
 
 To implement the equatable protocol is as simple as follow:
 
@@ -27,9 +29,7 @@ class SimpleSubClass: SimpleClass {
 
 Because when you comparing two `SimpleSubClass` objects, only the super class's `==` function is called.
 
----
-
-## Solution
+### Solution
 
 Add an extra `equals` function that can be overriden in subclass
 
@@ -56,12 +56,10 @@ class SimpleSubClass: SimpleClass {
             && self.propC == other.propC
     }
 }
-
 ```
 
----
+## References
 
-# References
+* [https://forums.swift.org/t/implement-equatable-protocol-in-a-class-hierarchy/13844](https://forums.swift.org/t/implement-equatable-protocol-in-a-class-hierarchy/13844)
+* [https://gist.github.com/fjfdeztoro/a5097f1b24379e127674eb1df8c97d96](https://gist.github.com/fjfdeztoro/a5097f1b24379e127674eb1df8c97d96)
 
-- https://forums.swift.org/t/implement-equatable-protocol-in-a-class-hierarchy/13844
-- https://gist.github.com/fjfdeztoro/a5097f1b24379e127674eb1df8c97d96

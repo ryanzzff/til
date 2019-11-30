@@ -9,7 +9,7 @@
 
 ## 2. Register keyboard notifications for keyboard show/hide event in viewDidLoad
 
-```
+```text
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -21,7 +21,7 @@
 
 ## 3. Adjust scroll view's content inset when keyboard shows
 
-```
+```text
 - (void)keyboardWillShow:(NSNotification *)notification
 {
     NSDictionary *info = [notification userInfo];
@@ -34,7 +34,7 @@
 
 ## 4. Reset the scroll view's content inset when keyboard hides
 
-```
+```text
 - (void)keyboardWillHide:(NSNotification *)notification
 {
     UIEdgeInsets contentInsets = UIEdgeInsetsZero;
@@ -45,4 +45,5 @@
 
 ## Reference
 
-- [How to make a UITextField move up when keyboard is present | StackOverflow](http://stackoverflow.com/questions/1126726/how-to-make-a-uitextfield-move-up-when-keyboard-is-present)
+* [How to make a UITextField move up when keyboard is present \| StackOverflow](http://stackoverflow.com/questions/1126726/how-to-make-a-uitextfield-move-up-when-keyboard-is-present)
+

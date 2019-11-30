@@ -2,14 +2,14 @@
 
 ## Demo:
 
-![keep-subview-in-scrollView-always-on-screen-image](img/keep-subview-in-scrollView-always-on-screen.gif)
+![keep-subview-in-scrollView-always-on-screen-image](../.gitbook/assets/keep-subview-in-scrollview-always-on-screen.gif)
 
-- contentOffset is 0 if the scrollView is scrolled top
-- contentOffset of a scrollView will increase as user scroll down
+* contentOffset is 0 if the scrollView is scrolled top
+* contentOffset of a scrollView will increase as user scroll down
 
 To keep the overlayView on the same position on screen, just increase the posY of the frame of the overlayView as the contentOffset increase
 
-```
+```text
 @interface ViewController ()<UIScrollViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
@@ -20,8 +20,7 @@ To keep the overlayView on the same position on screen, just increase the posY o
 @end
 ```
 
-```
-
+```text
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -47,3 +46,4 @@ To keep the overlayView on the same position on screen, just increase the posY o
 }
 @end
 ```
+

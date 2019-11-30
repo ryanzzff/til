@@ -1,8 +1,10 @@
-# CocoaPods Private Spec Repo
+# private-spec-repo
 
-## Introduction
+## CocoaPods Private Spec Repo
 
-```
+### Introduction
+
+```text
 platform :ios, '8.0'
 
 target 'MyApp' do
@@ -10,76 +12,77 @@ target 'MyApp' do
 end
 ```
 
-The above example Podfile will install AFNetworking from a Public Spec Repo provided by CocoaPods.
-If we need to use a private library via CocoaPods, we need a Private Spec Repo.
+The above example Podfile will install AFNetworking from a Public Spec Repo provided by CocoaPods. If we need to use a private library via CocoaPods, we need a Private Spec Repo.
 
-## What We Need
+### What We Need
 
 1. Private Spec Repo - a git repository that store a list of private repo
 2. Library Repo - a git/svn repository that store the source code of the library
 
-## How we create/update a private pod
+### How we create/update a private pod
 
-### Steps
+#### Steps
 
-#### 1. Modify source code of the library
-#### 2. Commit and push to remote Git repo
-#### 3. Add a git tag for a version
-#### 4. Update the version number (same as git tag) of the Podspec
-#### 5. Validate the Podspec before push
+**1. Modify source code of the library**
 
-LibraryA - a library may contains dependency of public pods only
-LibraryB - a library that contains a static library need `use-libraries` flag
-LibraryC - a library which contains dependency of other private pods
+**2. Commit and push to remote Git repo**
 
-```
+**3. Add a git tag for a version**
+
+**4. Update the version number \(same as git tag\) of the Podspec**
+
+**5. Validate the Podspec before push**
+
+LibraryA - a library may contains dependency of public pods only LibraryB - a library that contains a static library need `use-libraries` flag LibraryC - a library which contains dependency of other private pods
+
+```text
 pod spec lint LibraryA.podspec --allow-warnings --verbose
 pod spec lint LibraryB.podspec --use-libraries --allow-warnings --verbose
 pod spec lint LibraryC.podspec --use-libraries --allow-warnings --verbose --sources='http://{private-git-repo-url}/cocoapods-private-spec-repo.git,https://github.com/CocoaPods/Specs.git'
 ```
 
-#### 6. Push the updated Podspec to the private spec repo
+**6. Push the updated Podspec to the private spec repo**
 
 You need to add the repo if you're not done before
 
-```
+```text
 pod repo add my-spec-repo http://{private-git-repo-url}/cocoapods-private-spec-repo.git
 ```
 
 Push the podspec to the private spec repo for any version update:
 
-```
+```text
 pod repo push my-spec-repo LibraryA.podspec --allow-warnings
 pod repo push my-spec-repo LibraryB.podspec --use-libraries --allow-warnings
 pod repo push my-spec-repo LibraryC.podspec --use-libraries --allow-warnings
 ```
 
-#### 7. Done, now can use the pod with the new version in Podfile
+**7. Done, now can use the pod with the new version in Podfile**
 
 Add the private spec repo url at the very first line of the Podfile, the default public spec repo of CocoaPods also need to be added
 
-```
+```text
 source 'http://{private-git-repo-url}/cocoapods-private-spec-repo.git'
 source 'https://github.com/CocoaPods/Specs.git'
 ```
 
-### Local Pod Development
+#### Local Pod Development
 
-Pods' source code will be pull from remote (git/svn) for normal declaration
+Pods' source code will be pull from remote \(git/svn\) for normal declaration
 
-```
+```text
 pod 'LibraryA', '~> 1.0.0'
 ```
 
-if a path is specified, CocoaPods will get the source code from local path instead of remote (git/svn repo)
+if a path is specified, CocoaPods will get the source code from local path instead of remote \(git/svn repo\)
 
-```
+```text
 pod 'LibraryA', :path => 'path/to/library-a'
 ```
 
 For well organized the stable pods and development pods, may declared both in separate functions
 
-```
+```text
 def stable_pods
   pod 'LibraryA', '~> 1.0.0'
 end
@@ -91,7 +94,7 @@ end
 
 To choose from different pods, just `execute` it out side the `def` block:
 
-```
+```text
 def stable_pods
   pod 'LibraryA', '~> 1.0.0'
 end
@@ -104,9 +107,9 @@ end
 dev_pods
 ```
 
-# Example Podspec
+## Example Podspec
 
-```
+```text
 Pod::Spec.new do |s|
 
   s.name         = "LibraryA"
@@ -136,12 +139,11 @@ Pod::Spec.new do |s|
     ss.dependency 'SSZipArchive', '0.3.2'
   end
 end
-
 ```
 
-# Example Podfile
+## Example Podfile
 
-```
+```text
 source 'http://{private-git-repo-url}/cocoapods-private-spec-repo.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
@@ -162,9 +164,9 @@ target "my-target" do
 
   dev_pods
 end
-
 ```
 
-# References
+## References
 
-- [Managing Private Pods With CocoaPods](https://code.tutsplus.com/tutorials/managing-private-pods-with-cocoapods--cms-25137)
+* [Managing Private Pods With CocoaPods](https://code.tutsplus.com/tutorials/managing-private-pods-with-cocoapods--cms-25137)
+

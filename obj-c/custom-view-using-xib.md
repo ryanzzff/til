@@ -5,11 +5,11 @@ Let `xxx` be the name of our new Custom View.
 ### Create Custom View
 
 1. Create `xxx.xib`
-2. Create the custom class xxx (`xxx.h`, `xxx.m`), which is a subclass of `UIView`
+2. Create the custom class xxx \(`xxx.h`, `xxx.m`\), which is a subclass of `UIView`
 3. in xib, set `Custom Class` of `File's Owner` to `xxx`
 4. Override `initWithCoder`:
 
-```
+```text
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
     if (self = [super initWithCoder:aDecoder]) {
@@ -27,16 +27,15 @@ Let `xxx` be the name of our new Custom View.
 2. Set the constraints of the UIView
 3. Run the project, you should be able to see our Custom View
 
-### Preview Custom View in Interface Builder (IBDesignable)
+### Preview Custom View in Interface Builder \(IBDesignable\)
 
-Now you may already noticed that you are not able to preview the Custom View in our UIViewController.
-To fix this we need to make the Custom View `IBDesignable`
+Now you may already noticed that you are not able to preview the Custom View in our UIViewController. To fix this we need to make the Custom View `IBDesignable`
 
 #### 1. add `IB_DESIGNABLE` marco in `xxx.h`
 
-Noted that `IB_DESIGNABLE` marco *MUST* be placed strictly before `@interface` 
+Noted that `IB_DESIGNABLE` marco _MUST_ be placed strictly before `@interface`
 
-```
+```text
 #import <UIKit/UIKit.h>
 
 IB_DESIGNABLE
@@ -48,7 +47,7 @@ IB_DESIGNABLE
 
 #### 2. implement `prepareForInterfaceBuilder` and load the Custom View from xib like `initWithCoder:`
 
-```
+```text
 - (void)prepareForInterfaceBuilder
 {
     UIView *view = [[[NSBundle bundleForClass:[self class]]loadNibNamed:NSStringFromClass([self class]) owner:self options:nil] firstObject];
@@ -61,13 +60,11 @@ IB_DESIGNABLE
 
 Custom View:
 
-![Custom View](img/custom-view-using-xib-custom-view.png)
+![Custom View](../.gitbook/assets/custom-view-using-xib-custom-view.png)
 
-Usage (in UIViewController):
+Usage \(in UIViewController\):
 
-![Usage](img/custom-view-using-xib-viewcontroller.png)
-
----
+![Usage](../.gitbook/assets/custom-view-using-xib-viewcontroller.png)
 
 ## Points to note
 
@@ -75,7 +72,7 @@ Usage (in UIViewController):
 
 The following error will occur when using `[NSBundle mainBundle]`:
 
-![NSBundle Error](img/custom-view-using-xib-nsbundle-error.png)
+![NSBundle Error](../.gitbook/assets/custom-view-using-xib-nsbundle-error.png)
 
 #### 2. Other init methods
 
@@ -87,20 +84,18 @@ All you need to set is only the `File's Owner` of the xib.
 
 #### 4. What's going on?
 
-Let `A` be the name of the empty UIView in our UIViewController
-Let `B` be the UIView that we load from xib
-Let `C` be the custom view class
+Let `A` be the name of the empty UIView in our UIViewController Let `B` be the UIView that we load from xib Let `C` be the custom view class
 
-- `A` is our starting point to load an instance of our custom view class `C`, but it is an empty UIView which shows nothing on screen. `initWithCoder` is called when `A` is loaded.
-- `B` is the view that we want to show on screen.
-- We set the `File's Owner` of `B` to `C`, so `C` have the full control of all elements of `B`(set outlet or action).
-- `B` is a subview of `A`
-
+* `A` is our starting point to load an instance of our custom view class `C`, but it is an empty UIView which shows nothing on screen. `initWithCoder` is called when `A` is loaded.
+* `B` is the view that we want to show on screen.
+* We set the `File's Owner` of `B` to `C`, so `C` have the full control of all elements of `B`\(set outlet or action\).
+* `B` is a subview of `A`
 
 ## References
 
-- http://stackoverflow.com/questions/9251202/how-do-i-create-a-custom-ios-view-class-and-instantiate-multiple-copies-of-it-i
-- http://www.maytro.com/2014/04/27/building-reusable-views-with-interface-builder-and-auto-layout.html
-- http://stackoverflow.com/a/26202160/3869284
-- http://stackoverflow.com/a/35397975/3869284
-- https://youtu.be/L97MdpaF3Xg
+* [http://stackoverflow.com/questions/9251202/how-do-i-create-a-custom-ios-view-class-and-instantiate-multiple-copies-of-it-i](http://stackoverflow.com/questions/9251202/how-do-i-create-a-custom-ios-view-class-and-instantiate-multiple-copies-of-it-i)
+* [http://www.maytro.com/2014/04/27/building-reusable-views-with-interface-builder-and-auto-layout.html](http://www.maytro.com/2014/04/27/building-reusable-views-with-interface-builder-and-auto-layout.html)
+* [http://stackoverflow.com/a/26202160/3869284](http://stackoverflow.com/a/26202160/3869284)
+* [http://stackoverflow.com/a/35397975/3869284](http://stackoverflow.com/a/35397975/3869284)
+* [https://youtu.be/L97MdpaF3Xg](https://youtu.be/L97MdpaF3Xg)
+

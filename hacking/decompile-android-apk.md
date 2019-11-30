@@ -2,7 +2,7 @@
 
 ## Example apk
 
-- [Viu TV app for Android](https://drive.google.com/file/d/0B5SRiNhfsNj2YkJtWjJPcjVjWTA/view)
+* [Viu TV app for Android](https://drive.google.com/file/d/0B5SRiNhfsNj2YkJtWjJPcjVjWTA/view)
 
 ## Overview
 
@@ -12,17 +12,19 @@
 ## Using dex2jar
 
 ### 1. Download [`dex2jar`](https://bitbucket.org/pxb1988/dex2jar/downloads)
+
 ### 2. Unzip `dex2jar-2.0.zip` to `~/bin/dex2jar-2.0/` or other directory
+
 ### 3. Make the script executable
 
-```
+```text
 $ cd ~/bin/dex2jar-2.0/
 $ chmod +x *.sh
 ```
 
 ### 4. Convert the apk into jar file using the convert script
 
-```
+```text
 $ sh ~/bin/dex2jar-2.0/d2j-dex2jar.sh com.hktve.viutv-20160409.apk
 ```
 
@@ -32,8 +34,9 @@ A jar file `com.hktve.viutv-20160409-dex2jar.jar` is then created
 
 Result:
 
-![JD-GUI Result](img/decompile-android-apk-result.png)
+![JD-GUI Result](../.gitbook/assets/decompile-android-apk-result.png)
 
 ## References
 
-- [decompiling DEX into Java sourcecode | StackOverflow](http://stackoverflow.com/a/4177581/3869284)
+* [decompiling DEX into Java sourcecode \| StackOverflow](http://stackoverflow.com/a/4177581/3869284)
+
