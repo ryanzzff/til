@@ -2,6 +2,10 @@
 
 ### [Bookmarks](bookmarks/index.md)
 
+### CentOS
+
+* [How to limit bandwidth on CentOS](centos/how-to-limit-bandwidth-on-centos.md)
+
 ### CocoaPods
 
 * [CocoaPods save project.pbxproj file in XML plist format on Xcode 7.3.1](cocoapods/cocoapods-save-project.pbxproj-file-in-xml-plist-format-on-xcode-7.3.1.md)

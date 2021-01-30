@@ -6,6 +6,10 @@
 
 * [Bookmarks](bookmarks/index.md)
 
+## Centos
+
+* [How to limit bandwidth on CentOS](centos/how-to-limit-bandwidth-on-centos.md)
+
 ## cocoapods
 
 * [private-spec-repo](cocoapods/private-spec-repo.md)
