@@ -4,6 +4,8 @@
 
 * [free-for.dev \| Free services for Infrastructure Developers](https://free-for.dev/)
 * [free programming books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md)
+* [O'Reilly eBooks \(need subscription\)](https://learning.oreilly.com/)
+* [untools \| Collection of thinking tools and frameworks](https://untools.co/)
 
 ## Awesome
 
@@ -39,6 +41,7 @@
 * [edX](https://www.edx.org/)
 * [RayWenderlich](https://www.raywenderlich.com/)
 * [Udemy](https://www.udemy.com/)
+* [Open Source Society University](https://github.com/ossu/computer-science)
 
 ## Swift
 
