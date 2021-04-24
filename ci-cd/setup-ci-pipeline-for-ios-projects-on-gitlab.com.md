@@ -198,8 +198,6 @@ noted that the percentage sign `%` must be included for **Test coverage parsing*
   * [https://juejin.cn/post/6844903553970995207](https://juejin.cn/post/6844903553970995207)
   * [https://stackoverflow.com/questions/49444879/gitlab-ci-runner-job-failed-exit-status-1-when-changing-directory/54471745\#54471745](https://stackoverflow.com/questions/49444879/gitlab-ci-runner-job-failed-exit-status-1-when-changing-directory/54471745#54471745)
 
-
-
 \*\*\*\*
 
 
