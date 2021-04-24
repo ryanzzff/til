@@ -7,7 +7,7 @@ description: A guide to running test targets for new commits to gitlab.com
 ## Overview
 
 1. Setup CI pipeline with .gitlab-ci.yml
-2. Adding badges for pipeline status and Coverage report
+2. Adding badges for pipeline status and code coverage
 
 ## Prerequisite
 
@@ -19,7 +19,7 @@ description: A guide to running test targets for new commits to gitlab.com
   * jq \(optional, for processing the code coverage report\)
     * `brew install jq` 
   * xcpretty
-    * create `Gemfile` in the same folder as the xcode project
+    * create `Gemfile` in the same folder as the Xcode project
     * with the content: 
 
       ```text
@@ -85,7 +85,7 @@ line 11-21: defined the `install_dependencies` Job
 
 line 23-34: defined the `build_project` Job
 
-line 28: build and test the xcode project
+line 28: build and test the Xcode project
 
 line 29-30: gather the code coverage stat   
 
@@ -95,13 +95,13 @@ line 29-30: gather the code coverage stat
 * `my-project-path/.vendor` is storing the installed gems
 * `${CI_COMMIT_REF_SLUG}` is the branch or tag name for which project is built
 
-Without cache, the gems installed in `prebuild` stage will be deleted when `build` stage is executed, even the Jobs are executed on the same machine
+Without cache, the gems installed in the `prebuild` stage will be deleted when the `build` stage is executed, even the Jobs are executed on the same machine
 
-The example will share the cahces across the same branch
+The example will share the caches across the same branch
 
 ### The use of `unset cd`
 
-when `rvm` is used, it will redefined the `cd` command as below:
+when `rvm` is used, it will redefine the `cd` command as below:
 
 ```text
 cd () 
@@ -110,22 +110,22 @@ cd ()
 }
 ```
 
-* When `cd` command is used in the Job, it will throw `ERROR: Build failed with: exit status 1` and exit immediately
+* When the `cd` command is used in the Job, it will throw `ERROR: Build failed with: exit status 1` and exit immediately
 * `unset cd` is used to reset `cd` to be the shell builtin command
   * it can be added before the step that used the `cd` command \(as in the example\)
   * or can be added in `.bash_profile` 
 
 ### Other points to note
 
-* the `tags` must matched the configs in the **Runners** section in gitlab.com -&gt; project settings -&gt; CI/CD
+* the `tags` must match the configs in the **Runners** section in gitlab.com -&gt; project settings -&gt; CI/CD
 * the file `.gitlab-ci.yml` should be placed in the root of the git repo
-* the DerivedData path is set relative to the xcode project
+* the DerivedData path is set relative to the Xcode project
 
-## Adding badges for pipeline status and Coverage report
+## Adding badges for pipeline status and code coverage
 
 ### Pipeline Status Badge
 
-![](../.gitbook/assets/zzff-learn___essential-developer-study-path_-_gitlab.png)
+![](../.gitbook/assets/gitlab-badges.png)
 
 To configure the pipeline status:
 
@@ -135,11 +135,11 @@ To configure the pipeline status:
   * Link: `https://gitlab.com/%{project_path}/-/commits/%{default_branch}`
   * Badge image URL: `https://gitlab.com/%{project_path}/badges/%{default_branch}/pipeline.svg`
 
-![](../.gitbook/assets/general_-_settings_-_zzff-learn___essential-developer-study-path_-_gitlab.png)
+![](../.gitbook/assets/gitlab-badge-pipeline.png)
 
 ### Code Coverage Badge
 
- 1. Get the code coverage report in json format after the project is built  
+ 1. Get the code coverage report in JSON format after the project is built  
 `xcrun xccov view --report --json DerivedData/my-project/Logs/Test/*.xcresult > xcresult.json`
 
  2. Print the code coverage to the job log  
@@ -147,7 +147,7 @@ To configure the pipeline status:
 
 the above line is to 
 
-* get the `lineCoverage`field from the json
+* get the `lineCoverage`field from the JSON
 * multiply the value by 100
 * convert the value in percentage
 * print the value with 2 decimal places

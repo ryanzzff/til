@@ -25,7 +25,7 @@ brew services start gitlab-runner
 
  2. Go to gitlab.com -&gt; project settings -&gt; CI/CD and expand the **Runners** section
 
-![Note the URL and registration token](../.gitbook/assets/ci_cd_settings_-_ci_cd_-_settings_-_zzff-learn___essential-developer-study-path_-_gitlab.png)
+![Note the URL and registration token](../.gitbook/assets/gitlab-runner-token.png)
 
  3. Register the runner 
 
@@ -37,7 +37,7 @@ gitlab-runner register
 
 You will see the runner is registered successfully in the Runners section on gitlab.com:
 
-![](../.gitbook/assets/screen_shot_2021-04-19_at_10_59_39_pm.png)
+![](../.gitbook/assets/gitlab-runner.png)
 
 ## References
 
