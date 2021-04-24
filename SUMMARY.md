@@ -10,6 +10,11 @@
 
 * [How to limit bandwidth on CentOS](centos/how-to-limit-bandwidth-on-centos.md)
 
+## CI/CD
+
+* [Add a mac as a GitLab runner](ci-cd/add-a-mac-as-a-gitlab-runner.md)
+* [Setup CI pipeline for iOS projects on gitlab.com](ci-cd/setup-ci-pipeline-for-ios-projects-on-gitlab.com.md)
+
 ## cocoapods
 
 * [private-spec-repo](cocoapods/private-spec-repo.md)

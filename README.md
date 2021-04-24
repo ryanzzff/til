@@ -8,6 +8,17 @@ View this page on [gitbook](https://ryanzzff.gitbook.io/til/).
 
 * [How to limit bandwidth on CentOS](centos/how-to-limit-bandwidth-on-centos.md)
 
+### CI/CD
+
+#### GitLab CI/CD
+
+* [Add a mac as a GitLab runner](ci-cd/add-a-mac-as-a-gitlab-runner.md)
+* [Setup CI pipeline for iOS projects](ci-cd/setup-ci-pipeline-for-ios-projects-on-gitlab.com.md)
+
+#### Jenkins
+
+* [Create stage dynamically in declarative pipeline](jenkins/create-stage-dynamically-in-declarative-pipeline.md)
+
 ### CocoaPods
 
 * [CocoaPods save project.pbxproj file in XML plist format on Xcode 7.3.1](cocoapods/cocoapods-save-project.pbxproj-file-in-xml-plist-format-on-xcode-7.3.1.md)
@@ -36,10 +47,6 @@ View this page on [gitbook](https://ryanzzff.gitbook.io/til/).
 * [Failed to open Xcode \(LSOpenURLsWithRole\(\) failed with error -10699\)](ios/xcode-lsopenurlswithrole.md)
 * [WKWebView set custom HTTP headers](ios/wkwebview-custom-http-headers.md)
 * [IAP applicationUsername is nil](ios/iap-applicationusername-nil.md)
-
-### Jenkins
-
-* [Create stage dynamically in declarative pipeline](jenkins/create-stage-dynamically-in-declarative-pipeline.md)
 
 ### Mac
 
